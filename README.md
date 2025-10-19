@@ -10,10 +10,26 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 5.	Stop the program.
 
 ## PROGRAM
+```
+#include <stdio.h>
+
+int main() {
+    int a = 44, b = 3;
+    int result;
+
+    result = a << b;  // Left shift a by b positions
+
+    printf("Result of %d << %d = %d\n", a, b, result);
+
+    return 0;
+}
+```
 
 ## OUTPUT
 
 
+
+<img width="446" height="216" alt="Screenshot 2025-10-19 185859" src="https://github.com/user-attachments/assets/f4df7ff7-e060-499c-82da-802556fe9156" />
 
 
 
