@@ -14,15 +14,20 @@ To write a C Program to perform the basic left shift operation for 44 integer nu
 #include <stdio.h>
 
 int main() {
-    int a = 44, b = 3;
+    int a = 44;   
+    int b = 3;    
     int result;
 
-    result = a << b;  // Left shift a by b positions
+    
+    result = a << b;
 
-    printf("Result of %d << %d = %d\n", a, b, result);
+    
+    printf("The result of left shifting %d by %d positions is: %d\n", a, b, result);
 
-    return 0;
+    return 0; 
 }
+
+
 ```
 
 ## OUTPUT
